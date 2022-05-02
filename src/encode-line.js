@@ -16,7 +16,6 @@ function encodeLine(str) {
   let encoderArr = [];
   for (elem of arrOfSet){
     let filt = arr.filter(item => item === elem)
-    console.log(filt)
     if(filt.length === 1) {
     encoderArr.push(filt[0])
     } else{
